@@ -1,4 +1,4 @@
-mediapipe
+mediapipe==0.9.1.0
 streamlit
 opencv-python
 numpy

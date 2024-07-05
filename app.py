@@ -64,7 +64,7 @@ def track_biceps_curls(side, weight, MET):
         st.session_state.camera_active = True
         st.button('Stop Webcam', on_click=stop_webcam)
 
-        vid = cv2.VideoCapture(0)
+        vid = cv2.VideoCapture(0,cv2.CAP_DSHOW)
         width = int(vid.get(cv2.CAP_PROP_FRAME_WIDTH))
         height = int(vid.get(cv2.CAP_PROP_FRAME_HEIGHT))
 

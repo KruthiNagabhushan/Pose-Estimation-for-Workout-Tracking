@@ -121,7 +121,6 @@ def track_biceps_curls(side, weight, MET):
                         wrist_visible = landmarks[mp_pose.PoseLandmark.RIGHT_WRIST.value].visibility > visible_threshold
                         # Calculate the angle
                         if shoulder_visible and elbow_visible and wrist_visible:
-                            angle = calculate_angle(shoulder, elbow, wrist)
                             st.session_state.ready_for_rep = True
 
                     if st.session_state.ready_for_rep:
@@ -146,7 +145,7 @@ def track_biceps_curls(side, weight, MET):
                                 st.session_state['total_curl_duration'] += curl_duration
                                 st.session_state['curl_start_time'] = None
                             st.session_state.stage = "up"
-                            state_text = "Great!"  # Positive reinforcement for completing the curl
+                            state_text = "Great!"  # Positive feedback for completing the curl
                             st.session_state.biceps_curls_count += 1
                         else:
                             if st.session_state.stage == "down":

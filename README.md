@@ -2,7 +2,7 @@
 
 This application uses computer vision and machine learning techniques to track various exercises such as bicep curls, squats, and lunges, and calculates the calories burned during these activities. The application utilizes OpenCV for real-time webcam video processing and MediaPipe for pose estimation.
 
-![img.png](img.png)
+![img.png width=500](img.png)
 
 ![img_1.png](img_1.png)
 

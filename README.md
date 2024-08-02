@@ -4,7 +4,12 @@ This application uses computer vision and machine learning techniques to track v
 
 ![img.png width=500](img.png)
 
-![img_1.png](img_1.png)
+![img_1.png width=500](img_1.png)
+
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/a3a9b9a7-7ad1-4274-acf4-b780de580d67">
+
+
+
 
 ## Features
 

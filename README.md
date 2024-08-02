@@ -6,7 +6,8 @@ This application uses computer vision and machine learning techniques to track v
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/a3a9b9a7-7ad1-4274-acf4-b780de580d67">
 
-![img_1.png width=500](img_1.png)
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/70885102-5615-4c65-a297-17618ea8f470">
+
 
 
 

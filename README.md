@@ -1,4 +1,4 @@
-# Exercise Tracking Application
+# Pose Tracking Application
 
 This application uses computer vision and machine learning techniques to track various exercises such as bicep curls, squats, and lunges, and calculates the calories burned during these activities. The application utilizes OpenCV for real-time webcam video processing and MediaPipe for pose estimation.
 
